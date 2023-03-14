@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "client"],
+  "ts-node": {
+    "transpileOnly": true,
+  }
+}
